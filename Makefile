@@ -39,9 +39,9 @@ results/figure/isles.png : results/isles.dat scripts/plotcount.py
         --output_file=results/figure/isles.png
 
 results/figure/abyss.png : results/abyss.dat scripts/plotcount.py
-    python scripts/plotcount.py \
-        --input_file=results/abyss.dat \
-        --output_file=results/figure/abyss.png
+	python scripts/plotcount.py \
+		--input_file=results/abyss.dat \
+		--output_file=results/figure/abyss.png
 
 results/figure/last.png : results/last.dat scripts/plotcount.py
 	python scripts/plotcount.py \
